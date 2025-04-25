@@ -2,10 +2,24 @@
 
 /* Global Styles */
 
-h1, h2, h3 {
+h1 {
     font-family: var(--primary-font);
     font-size: 2.5rem;
     font-weight: 700;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+h3 {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    font-weight: 500;
     color: var(--primary-color);
 }
 
