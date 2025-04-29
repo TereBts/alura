@@ -127,8 +127,7 @@ body {
   
 
 .carousel-inner img {
-    max-width: 20%;
-    height: auto;
+    max-height: 200px;
     margin: 0 auto;
 }
 
