@@ -93,6 +93,10 @@ body {
   /* Hero Section */
 
   .hero-image {
-        max-width: 75%;
+        max-width: 70%;
         height: auto;    
     }
+
+.hero-section {
+    background-color: var(--background-color);
+}
