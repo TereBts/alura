@@ -40,6 +40,21 @@ body {
     --background-color: #EDE7E3; /* sand */
 }
 
+/* Button Styles */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--highlight-color-light);
+    padding: auto;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--highlight-color-light);
+    opacity: 0.85; /* Slightly transparent on hover */
+}
+
 /* Navigation Styles */
 
 .custom-navbar {
@@ -72,3 +87,12 @@ body {
     color: var(--primary-color);
     opacity: 0.85; 
   }  
+
+  /* Main Content */
+
+  /* Hero Section */
+
+  .hero-image {
+        max-width: 75%;
+        height: auto;    
+    }
