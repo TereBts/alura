@@ -136,3 +136,27 @@ body {
     bottom: -30px; /* Pushes the indicators further below the carousel */
   }
 
+/* Media Queries */
+
+/* Mobile Styles */
+
+@media (max-width: 768px) {
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btn-primary {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .custom-navbar .btn-primary {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .carousel-inner {
+        min-height: 600px;
+      }
+}
