@@ -136,6 +136,15 @@ body {
   }
 
 
+ /* Invest Page */
+ 
+.card-img-top {
+    height: 300px;         /* or whatever height works for your layout */
+    object-fit: cover;     /* ensures the image fills the area without distortion */
+    width: 100%;           /* makes sure image spans the full card width */
+  }
+  
+
 /* Footer Styles */
 footer {
     background-color: var(--primary-color);
@@ -157,6 +166,7 @@ footer h2, h3 {
     color: var(--background-color);
     transition: color 0.3s ease;
 }
+
 
 
 /* Media Queries */
