@@ -160,6 +160,11 @@ body {
     width: 100%;           /* makes sure image spans the full card width */
   }
   
+/* blog pages styles */
+.blog-feature-img {
+    max-width: 600px;
+    height: auto;
+}
 
 /* Footer Styles */
 footer {
