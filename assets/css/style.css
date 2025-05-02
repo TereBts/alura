@@ -135,6 +135,11 @@ body {
     bottom: -30px; /* Pushes the indicators further below the carousel */
   }
 
+/* blog section */
+.blog-section {
+    background-color: var(--background-color);
+    padding-bottom: 3rem;
+}
 
  /* Invest Page */
  
