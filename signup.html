@@ -76,12 +76,11 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-6">
-            <form class="bg-light p-4 rounded shadow-sm">
+            <form class="bg-light p-4 rounded shadow-sm" action="success.html" method="get">
               <section id="booking-form" class="container section my-5">
                 <div class="row justify-content-center">
                   <div class="col-12 col-md-8">
                     <h2>Booking Inquiry</h2>
-                    <form action="success.html" method="get">
                       <div class="row">
                         <!-- Full Name -->
                         <div class="col-12 mb-3">
@@ -89,14 +88,12 @@
                           <input type="text" class="form-control" id="full-name" name="full-name"
                             placeholder="Your Name" required>
                         </div>
-
                         <!-- Email -->
                         <div class="col-12 mb-3">
                           <label for="email" class="form-label">Email</label>
                           <input type="email" class="form-control" id="email" name="email" placeholder="Your email"
                             required>
                         </div>
-
                         <!-- Occupation -->
                         <div class="col-12 mb-3">
                           <label for="occupation" class="form-label">Occupation</label>
@@ -109,7 +106,6 @@
                             <option value="retired">Retired</option>
                           </select>
                         </div>
-
                         <!-- Monthly Income -->
                         <div class="col-12 mb-3">
                           <label for="income" class="form-label">Monthly Income</label>
@@ -121,11 +117,9 @@
                             <option value="10000+">10,000+</option>
                           </select>
                         </div>
-
                         <!-- desired investment plan (radio buttons) -->
                         <div class="col-12 mb-3">
                           <label class="form-label d-block">Desired Investment Plan</label>
-
                           <div class="form-check">
                             <input class="form-check-input" type="radio" name="investment-plan" id="starter-plan"
                               value="starter-plan" required>
@@ -133,7 +127,6 @@
                               Starter Plan
                             </label>
                           </div>
-
                           <div class="form-check">
                             <input class="form-check-input" type="radio" name="investment-plan" id="growth-plan"
                               value="growth-plan">
@@ -141,7 +134,6 @@
                               Growth Plan
                             </label>
                           </div>
-
                           <div class="form-check">
                             <input class="form-check-input" type="radio" name="investment-plan" id="freedom-plan"
                               value="freedom-plan">
@@ -150,15 +142,12 @@
                             </label>
                           </div>
                         </div>
-
                         <!-- Submit Button -->
                         <button type="submit" class="btn btn-primary">Apply</button>
                     </form>
                   </div>
                 </div>
               </section>
-
-    </section>
 
   </main>
   <!--End Main Content-->
