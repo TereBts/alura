@@ -134,6 +134,17 @@ body {
     bottom: -30px; /* Pushes the indicators further below the carousel */
   }
 
+/* Client Section */
+
+.fa-brands {
+    color: var(--primary-color);
+}
+
+.fa-brands:hover {
+    color: var(--highlight-color);
+    transition: color 0.3s ease;
+}
+
 /* blog section */
 .blog-section {
     background-color: var(--background-color);
