@@ -205,22 +205,28 @@ footer h2, h3 {
 /* Mobile Styles */
 
 @media (max-width: 768px) {
-    .hero-image {
-        max-width: 100%;
-        height: auto;
-    }
 
-    .btn-primary {
-        width: 80%;
-        margin-top: 1rem;
-    }
-
+    /* Navbar button */
     .custom-navbar .btn-primary {
         width: 80%;
         margin-right: 0;
     }
 
+    /* Buttons */
+    .btn-primary {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    /* Hero image resizing */
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Carousel image resize */
     .carousel-inner {
         min-height: 600px;
       }
 }
+
