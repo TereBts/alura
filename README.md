@@ -25,6 +25,8 @@ Alura is a fictional banking website designed as a student project to demonstrat
 
 The color palette consists of two tones of purple (`#18174F` and `#DAD0F1`), a blue hover color (`#64748B`), and a charcoal color (`#2E2E2E`) for the main text. These colors were chosen to reflect themes of power and wealth while also conveying trust and credibility with a feminine touch.
 
+
+
 ## Typography
 
 The primary font for the site is **Cambay**, with *Sans Serif* as a fallback. **Libre Franklin** is used for headings, selected for its compatibility with Cambay according to Google Fonts. The logo uses the **Arya** font, with *Sans Serif* again as a fallback.
@@ -33,4 +35,9 @@ The primary font for the site is **Cambay**, with *Sans Serif* as a fallback. **
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website, helping visualize the layout and structure of each page and element placement.
 
+Page | Desktop Version | Tablet Version | Mobile Version
+--- | --- | --- | ---
+Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Tablet index wireframe image](assets/wireframes/tablet-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
+Invest | ![Desktop invest wireframe image](assets/wireframes/desktop-invest.png) | ![Tablet invest wireframe image](assets/wireframes/tablet-invest.png) | ![Mobile invest wireframe image](assets/wireframes/mobile-invest.png)
+Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.png) | ![Tablet sign up wireframe image](assets/wireframes/tablet-signup.png) | ![Mobile sign up wireframe image](assets/wireframes/mobile-signup.png)
 
