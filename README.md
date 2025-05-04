@@ -18,7 +18,6 @@ Alura is a fictional banking website designed as a student project to demonstrat
 - As a first-time visitor, I want the website to feel trustworthy and professional.  
 - As someone who is careful with their money, I want to know I can get in contact with my bank if I have any questions or issues.  
 - As a prospective customer, I want to read testimonials and reviews from other customers to feel more confident about signing up for an account with Alura.  
-- As a financially-savvy woman, I want offers, money-saving tips, and investment advice sent to my inbox.  
 - As a regular tech user, I have high expectations for the website’s user experience and journey.  
 
 ## Color Scheme
@@ -164,6 +163,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 ## Technologies Used
 
 ### Languages Used
+
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
@@ -206,6 +206,37 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 ### Testing User Stories
 
+* As a busy professional woman, I want to quickly see what Alura offers.  
+    -  The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
+
+* As someone new to investing, I want clear, jargon-free investment options.  
+    - The invest page breaks down each product in comparable tables. 
+    - Each invest card contains useful information about the plan. 
+
+* As a time-strapped user, I want a simple and fast sign-up form.  
+    - The sign up form is short and simple for the customer to apply for an investment plan. 
+
+* As someone looking for support, I want to know that EmpowerBank provides educational tools.  
+    - The blog section contains links to useful articles for the customer to expand their knowledge. 
+    - The blog page contains valuable information for the user presented in a digestable manner. 
+
+* As a first-time visitor, I want the website to feel trustworthy and professional.  
+    - The website uses professional imagery. 
+    - The website uses a strong sense of brand. 
+    - The partners and testimonials section give new users more confidence. 
+
+* As someone who is careful with their money, I want to know I can get in contact with my bank if I have any questions or issues.  
+    - There is a clear contact link on the navbar that brings the user to the contact section in the footer. 
+    - The contact section contains all the information needed for the user to contact the business including clickable links for telephone, email and social media. 
+
+* As a prospective customer, I want to read testimonials and reviews from other customers to feel more confident about signing up for an account with Alura.  
+    - The testimonials section give the user more confidence to the use the business' products. 
+
+* As a regular tech user, I have high expectations for the website’s user experience and journey.
+    - The website offers a intuitive structure for the customers to navigate.
+
+    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
+
 
 
 
@@ -227,7 +258,6 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 * [Logo](https://logo.com)
     - Alura business logo
-
 
 
 
