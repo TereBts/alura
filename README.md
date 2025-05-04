@@ -60,6 +60,10 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 * The navigation bar is identical in all pages and links to all relevant pages of the website. It has a hover effect which changes color to provide feedback to the user. 
 
+* The 'contact' link in the naviation links to the contact information contained in the site footer
+
+* The sign up page is presented as a button to differentiate it from the rest of the navigation menu as an important page in the website and encourage the user to be drawn to it. 
+
 * **Footer**
 ![Footer image](/assets/readme-files/alura-footer.png)
 
@@ -75,5 +79,66 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 ### Home Page
 
-* Hero section 
+* **Hero section**
+![Hero Section](/assets/readme-files/alura-hero.png)
+
+- The hero section is designed to attract the users attention and efficiently describe what the benefit of the business is to the customer. There is also a call-to-action to take the customer to the investment packages page.
+
+* **About Alura Section**
+![About Section](/assets/readme-files/alura-about.png)
+
+- The about section contains a carousel with four cards that contain modern and attractive illustrations above text to describe the features and benefits of the product
+
+- Followed by another call to action that will bring the user to the invest packages page. 
+
+* **Partners Section**
+![Partners Section](/assets/readme-files/alura-partners.png)
+
+- The partners section contains some logos that show the partners the business has worked with. The logos are clickable links that take you to the partners website in a new tab. There is a hover effect for user experience.
+
+* **Testimonial Section**
+![Testimonial Section](/assets/readme-files/alura-testimonial.png)
+
+- The testimonial section contains cards with an image of customer, some text describing their experience of the business and a card footer with their name and job role. 
+
+* **Blog Section**
+![Blog Section](/assets/readme-files/alura-blog.png)
+
+- The blog section contains cards showing the feature image, headline and excerpt from blogs, with a button to take you to a blog page in a new tab. 
+
+### Invest Page
+
+* **Header section**
+![Header Section](/assets/readme-files/invest-header.png)
+
+- The header contains a bold message and appealing text to encourage the user to choose one of the business' products.
+
+* **Plans section**
+![Plans Section](/assets/readme-files/invest-plans.png)
+
+- The plans sections contains three cards with illustrations and an ordered list containing the information about each of the products the business offers, 
+
+- Followed below by a large CTA button which takes the user to the sign up page. 
+
+
+### Sign Up Page
+
+* **Header section**
+![Header Section](assets/readme-files/signup-header.png)
+
+- The header contains a bold message and appealing text to encourage the user to fill out the sign up form.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
