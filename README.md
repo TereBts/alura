@@ -106,6 +106,18 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 - The blog section contains cards showing the feature image, headline and excerpt from blogs, with a button to take you to a blog page in a new tab. 
 
+### Blog Page
+
+* **Blog Header section**
+![Blog Header Section](/assets/readme-files/blog-header.png)
+
+- The blog header shows the blog's title, feature image an introduction to the blog. 
+
+* **Blog Body section**
+![Blog Body Section](/assets/readme-files/blog-body.png)
+
+- Contains the blog text content including large headers to break up the content into bitesize chunks to improve the user experience. 
+
 ### Invest Page
 
 * **Header section**
@@ -128,10 +140,93 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 - The header contains a bold message and appealing text to encourage the user to fill out the sign up form.
 
+* **Form section**
+![Form Section](/assets/readme-files/signup-form.png)
+
+- The sign up form contains text fields to enter name and email. Dropdown selection for occupation and monthly income and radio buttons to select the desired investment plan, followed by a submit button with the text 'Apply'. 
+
+- All fields are required in order for the form to be submitted.
+
+- The 'Apply' button is hoverable for feedback to the user. 
+
+- A correctly filled out form will lead the user to the 'success' page. 
+
+### Success Page
+
+* **Success section**
+![Success Section](/assets/readme-files/success.png)
+
+- The success section provides the user with a message so they are clear that their form has been submitted. 
+
+- There is a button for the user to return to the home page if they wish to. 
+
+
+## Technologies Used
+
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries and Programs Used
+
+* [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to import the fonts Cambay, Libre Franklin and Arya into the style.css file. These fonts were used throughout the site.
+
+* [Font Awesome](https://fontawesome.com/)
+     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
+
+* [BulkResize](https://bulkresizephotos.com)
+    - Bulk Resize was used to reduce the file size of the images for the website.
+
+* [GitHub](https://github.com/)
+     - GitHub was used to store the project after pushing.
+
+* [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create the wireframes during the design phase of the project.
+
+* [Boostrap](https://getbootstrap.com/)
+    - Boostrap was used for grid layouts and components like navbar, cards, carousel, tables, forms and buttons. 
+
+* [ChatGPT](https://chatgpt.com/)
+    - ChatGPT was to aid the website copy editing and also for troubleshooting some html and CSS issues I had while building the site. 
+
+* [Blush Design](https://blush.design/)
+    - Blush design was used to create illustrations. 
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used during development process for code review and to test responsiveness.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
+
+## Testing
+
+### Testing User Stories
 
 
 
 
+### Media
+
+* [Raw Pixel](https://www.rawpixel.com/)
+    - Graphics for the blogs. 
+
+* [Humaans](https://www.humaaans.com/)
+    - Humaans design library was used to source illustrations to be edited in Blush design. 
+    - About Alura cards.
+
+* [Undraw](https://undraw.co/)
+    - Invest plans illustrations. 
+
+* [Gemini](https://gemini.google.com/)
+    - Home page hero image
+    - Testimonial images 
+
+* [Logo](https://logo.com)
+    - Alura business logo
 
 
 
