@@ -25,6 +25,8 @@ Alura is a fictional banking website designed as a student project to demonstrat
 
 The color palette consists of two tones of purple (`#18174F` and `#DAD0F1`), a blue hover color (`#64748B`), and a charcoal color (`#2E2E2E`) for the main text. These colors were chosen to reflect themes of power and wealth while also conveying trust and credibility with a feminine touch.
 
+![Color scheme image](assets/readme-files/alura-color-palette.png)
+
 
 
 ## Typography
