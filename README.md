@@ -43,3 +43,37 @@ Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | 
 Invest | ![Desktop invest wireframe image](assets/wireframes/desktop-invest.png) | ![Tablet invest wireframe image](assets/wireframes/tablet-invest.png) | ![Mobile invest wireframe image](assets/wireframes/mobile-invest.png)
 Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.png) | ![Tablet sign up wireframe image](assets/wireframes/tablet-signup.png) | ![Mobile sign up wireframe image](assets/wireframes/mobile-signup.png)
 
+## Features
+
+### General
+
+* Responsive design across all device sizes.
+
+* Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
+
+* **Header**
+![Header image](assets/readme-files/alura-header.png)
+
+* The header contains the business logo, plus a fully responsive navigation bar positioned at the top of the screen.
+
+* The logo links to the home page 
+
+* The navigation bar is identical in all pages and links to all relevant pages of the website. It has a hover effect which changes color to provide feedback to the user. 
+
+* **Footer**
+![Footer image](/assets/readme-files/alura-footer.png)
+
+* The footer includes the logo and links to the business' social media channels. 
+
+* The social media icons have a hover effect to increase user experience. 
+
+* The footer includes the business email and phone number which are clickable links and also have hover effect to improve user experience. 
+
+* The footer includes a google maps iframe of the business address. 
+
+* The footer also has a table with an unordered list of the business opening hours. There is also a hover effect on the table rows to give the user feedback. 
+
+### Home Page
+
+* Hero section 
+
