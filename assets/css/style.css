@@ -81,7 +81,7 @@ section {
 }
 
 .custom-navbar .nav-link {
-    color: var(--highlight-color-light);
+    color: white;
 }
 
 .custom-navbar .nav-link:hover {
@@ -89,7 +89,7 @@ section {
 }
 
 .custom-navbar .nav-link.active {
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
 }
 
 .custom-navbar .btn-primary {
