@@ -70,6 +70,10 @@ body {
     opacity: 0.85;
 }
 
+section {
+    padding-bottom: 4rem;
+}
+
 /* Navigation Styles */
 
 .custom-navbar {
@@ -110,11 +114,13 @@ body {
 .hero-image {
     max-width: 70%;
     height: auto;
+    margin-bottom: 2rem;
 }
 
 .hero-section {
     background-color: var(--background-color);
 }
+
 
 /* About Section */
 
@@ -145,11 +151,16 @@ body {
     transition: color 0.3s ease;
 }
 
-/* blog section */
+/* Blog Section */
 .blog-section {
     background-color: var(--background-color);
     padding-bottom: 3rem;
 }
+
+.blog-section .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
 .blog-section .card-text {
     font-size: 1rem;
@@ -170,13 +181,13 @@ body {
     width: 100%;          
   }
   
-/* blog pages styles */
+/* Blog Page */
 .blog-feature-img {
     max-width: 600px;
     height: auto;
 }
 
-/* Footer Styles */
+/* Footer */
 footer {
     background-color: var(--primary-color);
     color: white;
