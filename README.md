@@ -237,6 +237,44 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
     - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
 
+### Code Validation
+
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
+
+    ## Index page
+    - W3C Markup Validator found the following errors:
+    [Index dev test](/assets/readme-files/devtest-index.png)
+    - The alt tags were removed from all <i> elements
+    - All syntax errors were corrected
+    - All structural errors were corrected
+
+    ## Invest page
+    - W3C Markup Validator found the following errors:
+    [Invest dev test](/assets/readme-files/devtest-invest.png)
+    - The syntax error was removed
+
+    ## Sign up page
+    - W3C Markup Validator found the following errors:
+    [Sign up dev test](/assets/readme-files/devtest-signup.png)
+    - The option form errors were corrected by adding value="" to disabled dropdown options 
+    - All structural errors were corrected
+    
+    ## Blog page
+    - W3C Markup Validator found the following errors:
+    [Blog dev test](/assets/readme-files/devtest-blog.png)
+    - All syntax errors were corrected
+    - All structural errors were corrected
+    
+    [No errors](/assets/readme-files/devtest-noerror-html.png)
+    - After making the previous corrections the HTML validator showed no further errors on all pages. 
+
+    ## CSS 
+    - W3C CSS validator found the following error: 
+    [CSS errors](/assets/readme-files/devtest-css.png)
+    - This error was corrected by adding correct padding values on the primary-button
+
+    [CSS no errors](/assets/readme-files/devtest-noerror-css.png)
+    - After correcting this error no further errors were shown. 
 
 
 
