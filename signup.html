@@ -64,7 +64,8 @@
         <div class="row pt-5">
           <h1 class="my-4 text-center">Get Started with Alura.</h1>
           <div class="col-12 text-center hero-text mb-4">
-            <h4 class="mb-4">Ready to take control of your financial future? <br> Sign up in just a few steps and begin your
+            <h4 class="mb-4">Ready to take control of your financial future? <br> Sign up in just a few steps and begin
+              your
               journey toward smarter money management.</h4>
           </div>
         </div>
@@ -77,78 +78,68 @@
         <div class="row justify-content-center">
           <div class="col-12 col-md-8">
             <form class="bg-light p-4 rounded shadow-sm" action="success.html" method="get">
-              <section id="booking-form" class="container section my-5">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-md-8">
-                    <h2 class="mb-4">Sign Up</h2>
-                      <div class="row">
-                        <!-- Full Name -->
-                        <div class="col-12 col-lg-6 mb-3">
-                          <label for="full-name" class="form-label">Full Name</label>
-                          <input type="text" class="form-control" id="full-name" name="full-name"
-                            placeholder="Your Name" required aria-required="true">
-                        </div>
-                        <!-- Email -->
-                        <div class="col-12 col-lg-6 mb-3">
-                          <label for="email" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="email" name="email" placeholder="Your email"
-                            required aria-required="true">
-                        </div>
-                        <!-- Occupation -->
-                        <div class="col-12 mb-3">
-                          <label for="occupation" class="form-label">Occupation</label>
-                          <select id="occupation" name="occupation" class="form-select" required aria-required="true">
-                            <option selected disabled>Select Occupation</option>
-                            <option value="student">Student</option>
-                            <option value="employed">Employed</option>
-                            <option value="self-employed">Self-employed</option>
-                            <option value="unemployed">Unemployed</option>
-                            <option value="retired">Retired</option>
-                          </select>
-                        </div>
-                        <!-- Monthly Income -->
-                        <div class="col-12 mb-3">
-                          <label for="income" class="form-label">Monthly Income</label>
-                          <select id="income" name="income" class="form-select" required>
-                            <option selected disabled>Select income range</option>
-                            <option value="1000-3000">1,000–3,000</option>
-                            <option value="3001-5000">3,001–5,000</option>
-                            <option value="5001-10000">5,001–10,000</option>
-                            <option value="10000+">10,000+</option>
-                          </select>
-                        </div>
-                        <!-- desired investment plan (radio buttons) -->
-                        <div class="col-12 mb-3">
-                          <label class="form-label d-block">Desired Investment Plan</label>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="investment-plan" id="starter-plan"
-                              value="starter-plan" required aria-required="true">
-                            <label class="form-check-label" for="starter-plan">
-                              Starter Plan
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="investment-plan" id="growth-plan"
-                              value="growth-plan">
-                            <label class="form-check-label" for="growth-plan">
-                              Growth Plan
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input mb-4" type="radio" name="investment-plan" id="freedom-plan"
-                              value="freedom-plan">
-                            <label class="form-check-label" for="freedom-plan">
-                              Freedom Plan
-                            </label>
-                          </div>
-                        </div>
-                        <!-- Submit Button -->
-                        <button type="submit" class="btn btn-primary" aria-label="Submit sign up form">Apply</button>
-                    </form>
+              <h2 class="mb-4">Sign Up</h2>
+              <div class="row">
+                <!-- Full Name -->
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="full-name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="full-name" name="full-name" placeholder="Your Name" required aria-required="true">
+                </div>
+                <!-- Email -->
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required aria-required="true">
+                </div>
+                <!-- Occupation -->
+                <div class="col-12 mb-3">
+                  <label for="occupation" class="form-label">Occupation</label>
+                  <select id="occupation" name="occupation" class="form-select" required aria-required="true">
+                    <option value="" disabled selected>Select Occupation</option>
+                    <option value="student">Student</option>
+                    <option value="employed">Employed</option>
+                    <option value="self-employed">Self-employed</option>
+                    <option value="unemployed">Unemployed</option>
+                    <option value="retired">Retired</option>
+                  </select>
+                </div>
+                <!-- Monthly Income -->
+                <div class="col-12 mb-3">
+                  <label for="income" class="form-label">Monthly Income</label>
+                  <select id="income" name="income" class="form-select" required>
+                    <option value="" disabled selected>Select income range</option>
+                    <option value="1000-3000">1,000–3,000</option>
+                    <option value="3001-5000">3,001–5,000</option>
+                    <option value="5001-10000">5,001–10,000</option>
+                    <option value="10000+">10,000+</option>
+                  </select>
+                </div>
+                <!-- Desired Investment Plan -->
+                <div class="col-12 mb-3">
+                  <label class="form-label d-block">Desired Investment Plan</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="investment-plan" id="starter-plan" value="starter-plan" required aria-required="true">
+                    <label class="form-check-label" for="starter-plan">Starter Plan</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="investment-plan" id="growth-plan" value="growth-plan">
+                    <label class="form-check-label" for="growth-plan">Growth Plan</label>
+                  </div>
+                  <div class="form-check mb-4">
+                    <input class="form-check-input" type="radio" name="investment-plan" id="freedom-plan" value="freedom-plan">
+                    <label class="form-check-label" for="freedom-plan">Freedom Plan</label>
                   </div>
                 </div>
-              </section>
-
+                <!-- Submit Button -->
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary" aria-label="Submit sign up form">Apply</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
   </main>
   <!--End Main Content-->
 
@@ -169,7 +160,7 @@
         <div class="col-12 col-md-6 col-xl-4 px-4 text-center text-md-start">
           <h3 class="mb-4">Find Us</h3>
           <address class="mb-4">
-            <i class="fa-solid fa-location-dot mb-4"></i> Alura</strong><br>
+            <i class="fa-solid fa-location-dot mb-4"></i> Alura<br>
             123 Alura Ave<br>
             Alura City, 12345
           </address>
