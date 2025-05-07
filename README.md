@@ -244,7 +244,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     ## Index page
     - W3C Markup Validator found the following errors:
     ![Index dev test](/assets/readme-files/devtest-index.png)
-    - The alt tags were removed from all <i> elements
+    - The alt tags were removed from all i elements
     - All syntax errors were corrected
     - All structural errors were corrected
 
@@ -275,6 +275,8 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
     ![CSS no errors](/assets/readme-files/devtest-noerror-css.png)
     - After correcting this error no further errors were shown. 
+
+### Accessiblility 
 
 
 
