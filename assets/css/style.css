@@ -180,12 +180,18 @@ section {
     object-fit: cover;     
     width: 100%;          
   }
-  
+
+/* Sign Up Page */
+.signup-section {
+    padding: 2rem 0;
+}
+
 /* Blog Page */
 .blog-feature-img {
     max-width: 600px;
     height: auto;
 }
+
 
 /* Footer */
 footer {
