@@ -2,37 +2,74 @@
 
 Alura is a fictional banking website designed as a student project to demonstrate the use of HTML and CSS. It targets busy and professional women, offering a simplified banking experience with tailored investment options. The goal is to create a clean, accessible, and informative static website.
 
-## User Experience
+Visit the deployed website [here](https://terebts.github.io/alura/)
 
-- The website features a clear and professional design that builds trust and credibility.  
-- Investment services are presented with accessible information to attract new account sign-ups.  
-- Customers are provided with useful content that encourages future interactions with the business.  
-- Visitors can grow their financial and investment knowledge through engaging blog posts.  
+## Table of Contents
 
-## User Stories
+1. [User Experience (UX)](#user-experience-ux)
+    1. [Project Goals](#project-goals)
+    2. [User Stories](#user-stories)
+    3. [Color Scheme](#color-scheme)
+    4. [Typography](#typography)
+    5. [Wireframes](#wireframes)
+2. [Features](#features)
+    1. [General](#general)
+    2. [Landing Page](#landing-page)
+    3. [Treatments Page](#treatments-page)
+    4. [Book Now Page](#book-now-page)
+    5. [404 Error Page](#404-error-page)
+ 3. [Technologies Used](#technologies-used)
+    1. [Languages Used](#languages-used)
+    2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+4. [Testing](#testing)
+    1. [Testing User Stories](#testing-user-stories)
+    2. [Code Validation](#code-validation)
+    3. [Accessibility](#accessibility)
+    4. [Tools Testing](#tools-testing)
+    5. [Manual Testing](#manual-testing)
+5. [Finished Product](#finished-product)
+6. [Deployment](#deployment)
+    1. [GitHub Pages](#github-pages)
+7. [Credits](#credits)
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Code](#code)
+8. [Acknowledgements](#acknowledgements)
 
-- As a busy professional woman, I want to quickly see what Alura offers.  
-- As someone new to investing, I want clear, jargon-free investment options.  
-- As a time-strapped user, I want a simple and fast sign-up form.  
-- As someone looking for support, I want to know that EmpowerBank provides educational tools.  
-- As a first-time visitor, I want the website to feel trustworthy and professional.  
-- As someone who is careful with their money, I want to know I can get in contact with my bank if I have any questions or issues.  
-- As a prospective customer, I want to read testimonials and reviews from other customers to feel more confident about signing up for an account with Alura.  
-- As a regular tech user, I have high expectations for the website’s user experience and journey.  
+***
 
-## Color Scheme
+## User Experience (UX)
+
+### Project Goals
+
+* The website features a clear and professional design that builds trust and credibility.  
+* Investment services are presented with accessible information to attract new account sign-ups.  
+* Customers are provided with useful content that encourages future interactions with the business.  
+* Visitors can grow their financial and investment knowledge through engaging blog posts.  
+
+### User Stories
+
+* As a busy professional woman, I want to quickly see what Alura offers.  
+* As someone new to investing, I want clear, jargon-free investment options.  
+* As a time-strapped user, I want a simple and fast sign-up form.  
+* As someone looking for support, I want to know that EmpowerBank provides educational tools.  
+* As a first-time visitor, I want the website to feel trustworthy and professional.  
+* As someone who is careful with their money, I want to know I can get in contact with my bank if I have any questions or issues.  
+* As a prospective customer, I want to read testimonials and reviews from other customers to feel more confident about signing up for an account with Alura.  
+* As a regular tech user, I have high expectations for the website’s user experience and journey.  
+
+### Color Scheme
 
 The color palette consists of two tones of purple (`#18174F` and `#DAD0F1`), a blue hover color (`#64748B`), and a charcoal color (`#2E2E2E`) for the main text. These colors were chosen to reflect themes of power and wealth while also conveying trust and credibility with a feminine touch.
-
 ![Color scheme image](assets/readme-files/alura-color-palette.png)
 
 
 
-## Typography
+### Typography
 
 The primary font for the site is **Cambay**, with *Sans Serif* as a fallback. **Libre Franklin** is used for headings, selected for its compatibility with Cambay according to Google Fonts. The logo uses the **Arya** font, with *Sans Serif* again as a fallback.
 
-## Wireframes
+### Wireframes
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website, helping visualize the layout and structure of each page and element placement.
 
@@ -41,6 +78,9 @@ Page | Desktop Version | Tablet Version | Mobile Version
 Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Tablet index wireframe image](assets/wireframes/tablet-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
 Invest | ![Desktop invest wireframe image](assets/wireframes/desktop-invest.png) | ![Tablet invest wireframe image](assets/wireframes/tablet-invest.png) | ![Mobile invest wireframe image](assets/wireframes/mobile-invest.png)
 Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.png) | ![Tablet sign up wireframe image](assets/wireframes/tablet-signup.png) | ![Mobile sign up wireframe image](assets/wireframes/mobile-signup.png)
+
+[Back to top ⇧](#alura)
+
 
 ## Features
 
@@ -159,6 +199,8 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 - There is a button for the user to return to the home page if they wish to. 
 
+[Back to top ⇧](#alura)
+
 
 ## Technologies Used
 
@@ -202,6 +244,9 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
+[Back to top ⇧](#alura)
+
+
 ## Testing
 
 ### Testing User Stories
@@ -241,25 +286,25 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-    ## Index page
+    - **Index page**
     - W3C Markup Validator found the following errors:
     ![Index dev test](/assets/readme-files/devtest-index.png)
     - The alt tags were removed from all i elements
     - All syntax errors were corrected
     - All structural errors were corrected
 
-    ## Invest page
+    - **Invest page**
     - W3C Markup Validator found the following errors:
     ![Invest dev test](/assets/readme-files/devtest-invest.png)
     - The syntax error was removed
 
-    ## Sign up page
+    - **Sign Up page**
     - W3C Markup Validator found the following errors:
     ![Sign up dev test](/assets/readme-files/devtest-signup.png)
     - The option form errors were corrected by adding value="" to disabled dropdown options 
     - All structural errors were corrected
     
-    ## Blog page
+    - **Blog page**
     - W3C Markup Validator found the following errors:
     ![Blog dev test](/assets/readme-files/devtest-blog.png)
     - All syntax errors were corrected
@@ -268,11 +313,11 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     [No errors](/assets/readme-files/devtest-noerror-html.png)
     - After making the previous corrections the HTML validator showed no further errors on all pages. 
 
-    ## Success Page 
+    - **Success page** 
        [No errors](/assets/readme-files/devtest-noerror-html.png)
     - No errors were found in the success page. 
  
-    ## CSS 
+    - **CSS** 
     - W3C CSS validator found the following error: 
     ![CSS errors](/assets/readme-files/devtest-css.png)
     - This error was corrected by adding correct padding values to the primary-button class
@@ -285,7 +330,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 * Lighthouse in Chrome DevTools was used to confirm the accessibility and performance of the website. 
 
 * Lighthouse reports
-    - ** Home Page
+    - **Home Page**
     ![Home page report](/assets/readme-files/alura-lighthouse-score.png)
     ![Home Performance Issues](/assets/readme-files/index-performance.png)
     - The performance issues showed render-blocking resources - referring to the CSS and javascript links to Bootstrap, which I ignored as their value far outweighs any minor performance issues. 
@@ -300,7 +345,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     ![Fixed Errors Lighthouse Report](/assets/readme-files/accessibility-fixes.png)
     - The score after my fixes on this page. 
 
-    - ** Invest Page 
+    - **Invest Page** 
     ![Invest Page Report](/assets/readme-files/invest-lighthouse-score.png)
     ![Invest Accessibility Issues](/assets/readme-files/invest-accessibility.png)
     - To fix this issue I added a title to the iframe.
@@ -310,7 +355,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     ![Fixed errors lighthouse invest page](/assets/readme-files/lighthouse-issue-fixes-all.png)
     - The score after my fixes on this page. 
 
-    - ** Sign Up Page 
+    - **Sign Up Page** 
     ![Sign up page report](/assets/readme-files/sign-up-lighthouse-score.png)
     ![Sign up page accessibility issues](/assets/readme-files/sign-up-accessibility.png)
     - To fix this issue I added a title to the iframe.
@@ -320,7 +365,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     ![Fixed errors lighthouse invest page](/assets/readme-files/lighthouse-issue-fixes-all.png)
     - The score after my fixes on this page. 
 
-    - ** Blog Page 
+    - **Blog Page** 
     ![Blog page report](/assets/readme-files/blog-lighthouse-score.png)
     ![Blog performance issues](/assets/readme-files/blog-performance.png)
     - There were some minor issues in the image sizing for the logo and the blog feature image, yet since it was a very minor issue and the score was 99 I left them as they are to not disturb the styling and appearance of the website.
@@ -331,7 +376,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     ![Fixed errors lighthouse invest page](/assets/readme-files/lighthouse-issue-fixes-all.png)
     - The score after my fixes on this page. 
 
-    - ** Success Page
+    - **Success Page**
     ![Success page report](/assets/readme-files/success-lighthouse-score.png)
     ![Success best practice issues](/assets/readme-files/blog-best-practices.png)
     - The best practices section flagged up the cookies coming from the iframe I am using from google maps to show the location of the business. In order to fix this I could show a screen print of the map that links to it as an outside resource, or I can use a late loading script in javascript that will cause a blurred view of the map until the user interacts with it. As this project is focused on CSS and HTML I decided to leave the map as it was.     
@@ -377,7 +422,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
         
         No appearance, responsiveness nor functionality issues.
 
-    - **PC Laptop**
+    - **MSi PC 15" Laptop**
 
         No appearance, responsiveness nor functionality issues.
 
@@ -400,13 +445,15 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
         - **Header**
 
-                - Clicking the logo will bring the customer to the home page.
+             Clicking the logo will bring the customer to the home page.
 
         - **Navigation Bar**
 
-                - Hovering on the navigation bar's links triggers a hover effect and highlights the link.
+            - Hovering on the navigation bar's links triggers a hover effect and highlights the link.
 
             - Clicking the navigation bar's links brings the customer to the corresponding page.
+
+            - Clicking on the "Contact" link takes the user to the contact section in the page's footer.
 
         - **Footer**
 
@@ -431,34 +478,34 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
         - **Call to Action Buttons**
             
-                - Hovering on the call to action buttons triggers a hover effect and highlights the button.
+            - Hovering on the call to action buttons triggers a hover effect and highlights the button.
 
-                - Clicking on the call to action button takes the user to the invest page. 
+            - Clicking on the call to action button takes the user to the invest page. 
 
         - **Carousel**
 
-                - Hovering on the carousel arrow navigation triggers a hover effect and darkens the arrow color.
+            - Hovering on the carousel arrow navigation triggers a hover effect and darkens the arrow color.
 
-                - Clicking the left and right arrows moves the carousel to the next or previous slides.
+            - Clicking the left and right arrows moves the carousel to the next or previous slides.
 
         - **Partners Logos**
 
-                - Hovering over the partner's logos triggers a hover effect that highlight the icons. 
+            - Hovering over the partner's logos triggers a hover effect that highlight the icons. 
 
-                - Clicking on the partner's logos opens the corresponding website in a new tab. 
+            - Clicking on the partner's logos opens the corresponding website in a new tab. 
 
         - **Blog Buttons** 
             
-                - Hovering on the "Read More" buttons triggers a hover effect that highlights the button. 
+            - Hovering on the "Read More" buttons triggers a hover effect that highlights the button. 
 
-                - Clicking on the "Read More" buttons takes the user to the blog page.
+            - Clicking on the "Read More" buttons takes the user to the blog page.
 
     - Invest Page  
 
         - **Apply Now Button**
-               - Hovering on the "Apply Now" button triggers a hover effect that highlights the button. 
+           - Hovering on the "Apply Now" button triggers a hover effect that highlights the button. 
 
-                - Clicking on the "Apply Now" button takes the user to the Sign Up page.
+            - Clicking on the "Apply Now" button takes the user to the Sign Up page.
 
     - Sign Up Page 
 
@@ -476,27 +523,85 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
             - Clicking on the "Home" button takes the user back to the home page.
 
+[Back to top ⇧](#alura)
 
+
+## Finished Product
+
+Page | Desktop version | Mobile version
+--- | --- | ---
+Index |![Home page desktop1](/assets/readme-files/final-home1.png)![Home page desktop2](/assets/readme-files/final-home2.png)![Home page desktop3](/assets/readme-files/final-home3.png)![Home page descktop4](/assets/readme-files/final-home4.png)![footer](/assets/readme-files/final-footer.png) |![Home Page Mobile1](/assets/readme-files/final-home-mob1.png)![Home Page Mobile2](/assets/readme-files/final-home-mob2.png)![Home Page Mobile3](/assets/readme-files/final-home-mob3.png)![Home Page Mobile4](/assets/readme-files/final-home-mob4.png)![Home Page Mobile5](/assets/readme-files/final-home-mob5.png)![Home Page Mobile6](/assets/readme-files/final-home-mob6.png)![Home Page Mobile7](/assets/readme-files/final-home-mob7.png)![Home Page Mobile8](/assets/readme-files/final-home-mob8.png)![Home Page Mobile9](/assets/readme-files/final-home-mob9.png)![Home Page Mobile10](/assets/readme-files/final-home-mob10.png)![Home Page Mobile11](/assets/readme-files/final-home-mob11.png)![Home Page Footer](/assets/readme-files/final-footer-mob1.png)![Home Page Footer2](/assets/readme-files/final-footer-mob2.png)
+Invest |![Invest Page Desktop1](/assets/readme-files/final-invest1.png)![Invest Page Desktop2](/assets/readme-files/final-invest2.png)![Invest Page Desktop Footer](/assets/readme-files/final-footer.png)|![Invest Page Mobile1](/assets/readme-files/final-invest-mob1.png)![Invest Page Mobile2](/assets/readme-files/final-invest-mob2.png)![Invest Page Mobile3](/assets/readme-files/final-invest-mob3.png)![Invest Page Mobile4](/assets/readme-files/final-invest-mob4.png)![Invest Page Mobile5](/assets/readme-files/final-invest-mob5.png)![Invest Page Mobile Footer](/assets/readme-files/final-footer-mob1.png)![Invest Page Mobile Footer2](/assets/readme-files/final-footer-mob2.png)
+Sign Up |![Sign up Page Desktop1](/assets/readme-files/final-signup.png)![Sign up Page Footer](/assets/readme-files/final-footer.png)|![Sign up Page Mobile1](/assets/readme-files/final-signup-mob1.png)![Sign up Page Mobile2](/assets/readme-files/final-signup-mob2.png)![Sign up Page Footer Mobile1](/assets/readme-files/final-footer-mob1.png)![Sign up Page Footer Mobile2](/assets/readme-files/final-footer-mob2.png)
+Blog |![Blog Page Desktop1](/assets/readme-files/final-blog1.png)![Blog Page Desktop2](/assets/readme-files/final-blog2.png)![Blog Page Footer](/assets/readme-files/final-footer.png)|![Blog Page Mobile1](/assets/readme-files/final-blog-mob1.png)![Blog Page Mobile2](/assets/readme-files/final-blog-mob2.png)![Blog Page Mobile3](/assets/readme-files/final-blog-mob3.png)![Blog Page Mobile4](/assets/readme-files/final-blog-mob4.png)![Blog Page Mobile Footer1](/assets/readme-files/final-footer-mob1.png)![Blog Page Mobile Footer2](/assets/readme-files/final-footer-mob2.png)
+Success |![Success Page Desktop](/assets/readme-files/final-success.png)![Success Page Footer1](/assets/readme-files/final-footer.png)|![Success Page Mobile](/assets/readme-files/final-success-mob.png)![Success Page Mobile footer1](/assets/readme-files/final-footer-mob1.png)![Success Page Mobile footer2](/assets/readme-files/final-footer-mob2.png)
+
+[Back to top ⇧](#alura)
+
+
+## Deployment
+
+* This website was developed using [VisualStudioCode](https://code.visualstudio.com/), which was then committed and pushed to GitHub using the VSCode terminal.
+
+### GitHub Pages
+
+* Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+    2. At the top of the Repository, locate the Settings button on the menu.
+
+    3. Scroll down the Settings page until you locate the Pages section.
+
+    4. Under Source, click the dropdown called None and select Main Branch.
+
+    5. The page will refresh automatically and generate a link to your website.
+
+[Back to top ⇧](#alura)
+
+
+## Credits 
+
+### Content
+
+- Content was written by the developer with the aid of [ChatGPT](https://chatgpt.com/). 
 
 ### Media
 
-* [Raw Pixel](https://www.rawpixel.com/)
-    - Graphics for the blogs. 
-
-* [Humaans](https://www.humaaans.com/)
-    - Humaans design library was used to source illustrations to be edited in Blush design. 
-    - About Alura cards.
-
-* [Undraw](https://undraw.co/)
-    - Invest plans illustrations. 
+* [Logo](https://logo.com)
+    - Generated business logo
 
 * [Gemini](https://gemini.google.com/)
-    - Home page hero image
-    - Testimonial images 
+    - AI generated home page hero image
+    - AI generated testimonial images 
 
-* [Logo](https://logo.com)
-    - Alura business logo
+* [Humaans](https://www.humaaans.com/)
+    - Humaans design library was used to source illustrations to be edited in Blush design 
+    - About Alura cards
 
+* [Raw Pixel](https://www.rawpixel.com/)
+    - Graphics for the blogs feature images 
+
+* [Undraw](https://undraw.co/)
+    - Invest plans illustrations 
+
+### Code
+
+* [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [ChatGPT](https://chatgpt.com/) and [CoPilot](https://copilot.microsoft.com/) were consulted on a regular basis for inspiration, help with debugging and to better understand the code being implemented where necessary.
+
+## Acknowledgements
+
+* My husband for all of his support, patience and love throughout this project. Plus all of his invaluable critiques and opinions that helped me with the development process.
+
+* My eldest daughter for all of her support patience and love throughout this project.
+
+* My mentor, Marcel, for his excellent feedback and guidance.
+
+* My tutor, Raghav, for his wonderful support and guidance.
+
+* Code Institute and its awesome Slack community for their support and for providing me with the knowledge I needed to complete this project.
+
+[Back to top ⇧](#alura)
 
 
 
