@@ -588,6 +588,9 @@ Success |![Success Page Desktop](/assets/readme-files/final-success.png)![Succes
 * [Undraw](https://undraw.co/)
     - Invest plans illustrations 
 
+* [FreeImages](https://www.freeimages.com/vector/tech-devices-composition-5692209)
+    - Tech Devices Mockup
+
 ### Code
 
 * [Bootstrap](https://getbootstrap.com/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [ChatGPT](https://chatgpt.com/) and [CoPilot](https://copilot.microsoft.com/) were consulted on a regular basis for inspiration, help with debugging and to better understand the code being implemented where necessary.
