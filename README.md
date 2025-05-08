@@ -1,5 +1,7 @@
 # alura
 
+![Alura mockup images](/assets/readme-files/alura-mockup.png)
+
 Alura is a fictional banking website designed as a student project to demonstrate the use of HTML and CSS. It targets busy and professional women, offering a simplified banking experience with tailored investment options. The goal is to create a clean, accessible, and informative static website.
 
 Visit the deployed website [here](https://terebts.github.io/alura/)
@@ -14,10 +16,11 @@ Visit the deployed website [here](https://terebts.github.io/alura/)
     5. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
-    2. [Landing Page](#landing-page)
-    3. [Treatments Page](#treatments-page)
-    4. [Book Now Page](#book-now-page)
-    5. [404 Error Page](#404-error-page)
+    2. [Home Page](#home-page)
+    3. [Blog Page](#blog-page)
+    4. [Invest Page](#invest-page)
+    5. [Sign Up Page](#sign-up-page)
+    6. [Success](#success-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -325,7 +328,7 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     ![CSS no errors](/assets/readme-files/devtest-noerror-css.png)
     - After correcting this error no further errors were shown. 
 
-### Accessiblility 
+### Accessibility 
 
 * Lighthouse in Chrome DevTools was used to confirm the accessibility and performance of the website. 
 
