@@ -364,7 +364,63 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
         
         No appearance, responsiveness nor functionality issues.
 
+        - **Microsoft Edge**
         
+        No appearance, responsiveness nor functionality issues.
+
+
+* Device compatibility
+
+    - The website has been tested on multiple devices, including:
+
+    - **Mac Mini**
+        
+        No appearance, responsiveness nor functionality issues.
+
+    - **PC Laptop**
+
+        No appearance, responsiveness nor functionality issues.
+
+    - **iPad Pro 12.9"**
+
+        No appearance, responsiveness nor functionality issues.
+
+    - **iPhone 14 Pro Max**
+        
+    No appearance, responsiveness nor functionality issues.
+
+    - **Google Pixel 6**
+
+    No appearance, responsiveness nor functionality issues.
+
+
+* Common Elements Testing
+
+    - **Header**
+
+            - Clicking the logo will bring the customer to the home page.
+
+        - **Navigation Bar**
+
+            - Hovering on the navigation bar's links triggers a hover effect and highlights the link.
+
+            - Clicking the navigation bar's links brings the customer to the corresponding page.
+        
+        - **Footer**
+
+            - The customer can interact with the iframe like a normal google map. 
+
+            - Clicking on the tel / email will open a new window for the customer (where relevant) to contact the business using the customers email / telephone app
+
+            - Hovering on the tel / email triggers a hover effect and alters the color the link.
+
+            - Hovering on the opening times table cells triggers a hover effect and darkens the background of the row. 
+
+            - Clicking the social media links  opens the corresponding website in a new tab.
+
+            - Hovering on the social media links triggers a hover effect and alters the color of the link.
+
+
 
 ### Media
 
