@@ -567,7 +567,7 @@ Success |![Success Page Desktop](/assets/readme-files/final-success.png)![Succes
 
 ### Content
 
-- Content was written by the developer with the aid of [ChatGPT](https://chatgpt.com/). 
+- Content was written by the developer.
 
 ### Media
 
@@ -590,7 +590,7 @@ Success |![Success Page Desktop](/assets/readme-files/final-success.png)![Succes
 
 ### Code
 
-* [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [ChatGPT](https://chatgpt.com/) and [CoPilot](https://copilot.microsoft.com/) were consulted on a regular basis for inspiration, help with debugging and to better understand the code being implemented where necessary.
+* [Bootstrap](https://getbootstrap.com/), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/), [ChatGPT](https://chatgpt.com/) and [CoPilot](https://copilot.microsoft.com/) were consulted on a regular basis for inspiration, help with debugging and to better understand the code being implemented where necessary.
 
 ## Acknowledgements
 
