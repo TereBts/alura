@@ -396,19 +396,25 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
 
 * Common Elements Testing
 
-    - **Header**
+    - All pages
 
-            - Clicking the logo will bring the customer to the home page.
+        - **Header**
+
+                - Clicking the logo will bring the customer to the home page.
 
         - **Navigation Bar**
 
-            - Hovering on the navigation bar's links triggers a hover effect and highlights the link.
+                - Hovering on the navigation bar's links triggers a hover effect and highlights the link.
 
             - Clicking the navigation bar's links brings the customer to the corresponding page.
-        
+
         - **Footer**
 
-            - The customer can interact with the iframe like a normal google map. 
+            - Clicking on the business logo takes the user back to the top of home page. 
+
+           - Clicking and dragging on the map will move the area shown on the map. 
+        
+            - Clicking the plus and minus buttons changes the zoom of the map.
 
             - Clicking on the tel / email will open a new window for the customer (where relevant) to contact the business using the customers email / telephone app
 
@@ -419,6 +425,56 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
             - Clicking the social media links  opens the corresponding website in a new tab.
 
             - Hovering on the social media links triggers a hover effect and alters the color of the link.
+
+
+    - Home Page
+
+        - **Call to Action Buttons**
+            
+                - Hovering on the call to action buttons triggers a hover effect and highlights the button.
+
+                - Clicking on the call to action button takes the user to the invest page. 
+
+        - **Carousel**
+
+                - Hovering on the carousel arrow navigation triggers a hover effect and darkens the arrow color.
+
+                - Clicking the left and right arrows moves the carousel to the next or previous slides.
+
+        - **Partners Logos**
+
+                - Hovering over the partner's logos triggers a hover effect that highlight the icons. 
+
+                - Clicking on the partner's logos opens the corresponding website in a new tab. 
+
+        - **Blog Buttons** 
+            
+                - Hovering on the "Read More" buttons triggers a hover effect that highlights the button. 
+
+                - Clicking on the "Read More" buttons takes the user to the blog page.
+
+    - Invest Page  
+
+        - **Apply Now Button**
+               - Hovering on the "Apply Now" button triggers a hover effect that highlights the button. 
+
+                - Clicking on the "Apply Now" button takes the user to the Sign Up page.
+
+    - Sign Up Page 
+
+        - **Sign Up Form**
+
+            - When filling out the sign up form, the customer is required to complete all fields before submitting.
+        
+            - Hovering over the "Apply" button will trigger hover effect, highlighting the button.
+
+    - Success Page
+
+        - **Home Button**
+
+            - Hovering on the "Home" button triggers a hover effect that highlights the button. 
+
+            - Clicking on the "Home" button takes the user back to the home page.
 
 
 
