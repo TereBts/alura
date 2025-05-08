@@ -268,17 +268,103 @@ Sign Up | ![Desktop sign up wireframe image](assets/wireframes/desktop-signup.pn
     [No errors](/assets/readme-files/devtest-noerror-html.png)
     - After making the previous corrections the HTML validator showed no further errors on all pages. 
 
+    ## Success Page 
+       [No errors](/assets/readme-files/devtest-noerror-html.png)
+    - No errors were found in the success page. 
+ 
     ## CSS 
     - W3C CSS validator found the following error: 
     ![CSS errors](/assets/readme-files/devtest-css.png)
-    - This error was corrected by adding correct padding values on the primary-button
+    - This error was corrected by adding correct padding values to the primary-button class
 
     ![CSS no errors](/assets/readme-files/devtest-noerror-css.png)
     - After correcting this error no further errors were shown. 
 
 ### Accessiblility 
 
+* Lighthouse in Chrome DevTools was used to confirm the accessibility and performance of the website. 
 
+* Lighthouse reports
+    - ** Home Page
+    ![Home page report](/assets/readme-files/alura-lighthouse-score.png)
+    ![Home Performance Issues](/assets/readme-files/index-performance.png)
+    - The performance issues showed render-blocking resources - referring to the CSS and javascript links to Bootstrap, which I ignored as their value far outweighs any minor performance issues. 
+    - The other issue was with the image formats, to resolve this issue I converted all images on the website to webp format. 
+    ![Home Accessibility Issues](/assets/readme-files/index-accessibility.png)
+    - To resolve this issue I altered the nav link colors to be white and the active link colour to be the highlight-light color. 
+    ![Home Accessibility Issues2](/assets/readme-files/index-accessibility2.png)
+    - To resolve this issue I added a title into the iframe. 
+    ![Home Accessibility Issues3](/assets/readme-files/
+    index-accessibility3.png)
+    - To resolve this issue I added an aria-label to each of the a elements.
+    ![Fixed Errors Lighthouse Report](/assets/readme-files/accessibility-fixes.png)
+    - The score after my fixes on this page. 
+
+    - ** Invest Page 
+    ![Invest Page Report](/assets/readme-files/invest-lighthouse-score.png)
+    ![Invest Accessibility Issues](/assets/readme-files/invest-accessibility.png)
+    - To fix this issue I added a title to the iframe.
+    - There was also an issue in my headings that they are not subsequential. I did this due to stylistic choices so I left it as it is. 
+    ![Invest Best Practices Issues](/assets/readme-files/invest-best-practices.png)
+    - The best practices section flagged up the cookies coming from the iframe I am using from google maps to show the location of the business. In order to fix this I could show a screen print of the map that links to it as an outside resource, or I can use a late loading script in javascript that will cause a blurred view of the map until the user interacts with it. As this project is focused on CSS and HTML I decided to leave the map as it was. 
+    ![Fixed errors lighthouse invest page](/assets/readme-files/lighthouse-issue-fixes-all.png)
+    - The score after my fixes on this page. 
+
+    - ** Sign Up Page 
+    ![Sign up page report](/assets/readme-files/sign-up-lighthouse-score.png)
+    ![Sign up page accessibility issues](/assets/readme-files/sign-up-accessibility.png)
+    - To fix this issue I added a title to the iframe.
+    - There was also an issue in my headings that they are not subsequential. I did this due to stylistic choices so I left it as it is.
+    ![Sign up page best practices issue](/assets/readme-files/sign-up-best-practices.png)
+    - The best practices section flagged up the cookies coming from the iframe I am using from google maps to show the location of the business. In order to fix this I could show a screen print of the map that links to it as an outside resource, or I can use a late loading script in javascript that will cause a blurred view of the map until the user interacts with it. As this project is focused on CSS and HTML I decided to leave the map as it was. 
+    ![Fixed errors lighthouse invest page](/assets/readme-files/lighthouse-issue-fixes-all.png)
+    - The score after my fixes on this page. 
+
+    - ** Blog Page 
+    ![Blog page report](/assets/readme-files/blog-lighthouse-score.png)
+    ![Blog performance issues](/assets/readme-files/blog-performance.png)
+    - There were some minor issues in the image sizing for the logo and the blog feature image, yet since it was a very minor issue and the score was 99 I left them as they are to not disturb the styling and appearance of the website.
+    ![Blog accessibilty issues](/assets/readme-files/blog-accessibility.png)
+    - To fix this issue I added a title to the iframe.
+    ![Blog best practice issues](/assets/readme-files/blog-best-practices.png)
+    - The best practices section flagged up the cookies coming from the iframe I am using from google maps to show the location of the business. In order to fix this I could show a screen print of the map that links to it as an outside resource, or I can use a late loading script in javascript that will cause a blurred view of the map until the user interacts with it. As this project is focused on CSS and HTML I decided to leave the map as it was. 
+    ![Fixed errors lighthouse invest page](/assets/readme-files/lighthouse-issue-fixes-all.png)
+    - The score after my fixes on this page. 
+
+    - ** Success Page
+    ![Success page report](/assets/readme-files/success-lighthouse-score.png)
+    ![Success best practice issues](/assets/readme-files/blog-best-practices.png)
+    - The best practices section flagged up the cookies coming from the iframe I am using from google maps to show the location of the business. In order to fix this I could show a screen print of the map that links to it as an outside resource, or I can use a late loading script in javascript that will cause a blurred view of the map until the user interacts with it. As this project is focused on CSS and HTML I decided to leave the map as it was.     
+
+### Tools testing 
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+    - I used Chrome DevTools during development in order to test, explore and modify the project's HTML elements and CSS styles.
+
+* Responsiveness
+    
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check the site's responsiveness on different devices.
+
+    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check the responsiveness on different screen sizes.
+    
+    - Chrome DevTools was also used to test the responsiveness on different screen sizes.
+
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+        - **Google Chrome**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Safari**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        
 
 ### Media
 
